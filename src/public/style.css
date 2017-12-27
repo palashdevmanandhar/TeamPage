@@ -37,6 +37,7 @@ section.first-section {
 /* search section */
 .search-wrapper {
     text-align: center;
+
 }
 
 .search-wrapper input {
@@ -45,6 +46,9 @@ section.first-section {
     border-bottom: 3px solid #333;
     min-width: 300px;
     font-size: 18px;
+    text-align: center;
+    background-color: 	#A6DEFF;
+
 }
 /* table section */
 .table-section.clearfix {
@@ -95,21 +99,70 @@ table.trash-table.table thead tr th{
 /*team page begin*/
 
 section.teampage-area {
-  backgroundColor:'yellow',
-  
+
+  display: flex;
+
+  height:100vh;
+  width:100vw;
 }
 
 .leftpad{
-  backgroundColor:'blue',
-  flex: 3
+
+  flex: 5;
 }
 
 .rightpad{
-  backgroundColor:'red',
-  flex:3
+
+  flex:5;
 }
 
 .box-section{
-  backgroundColor:'green',
-  flex:5
+
+  flex:8;
+
+}
+
+.main-box{
+  width: 623px;
+  border: 1px solid #adadad;
+  box-shadow: 0 0 60px #adadad;
+  background-color: 	#A6DEFF;
+  margin: 42px 0px;
+
+}
+
+.main-box h1{
+  padding: 0px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 41px;
+  font-family: AGNextBold;
+}
+
+.name-input-box{
+  width: 623px;
+
+  padding: 0px 15px;
+  margin: 160px 0px;
+
+  margin-bottom: 230px;
+}
+
+.icon-boxes{
+  display:flex;
+  padding: 10px 14px;
+
+}
+
+.envelope-icon{
+  flex:2;
+  padding : 0px 0px 0px 180px;
+
+}
+
+.phone-icon{
+  flex:3;
+  padding : 0px 10px 0px 15px;
+
+
 }
