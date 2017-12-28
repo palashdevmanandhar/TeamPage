@@ -8,6 +8,9 @@ render(){
       <div className="leftpad"></div>
       <div className="box-section">
           <div className="main-box">
+          <div className="hr-line">
+          <hr />
+          </div>
             <div><h1> Business</h1></div>
             <div><h1> Intelligence</h1></div>
             <div className="name-input-box">
