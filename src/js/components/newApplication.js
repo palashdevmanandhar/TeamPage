@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import Table from "./table";
-
+import TopSection from"./firstPageComponents/topSection";
 
 export default class Applications extends Component{
   render(){
@@ -8,19 +8,9 @@ export default class Applications extends Component{
       <div className="application-page">
 
         <div className="top-half">
-          <div className="top-section">
-              <div className="top-section-blank"></div>
-              <div className="shape1">
-                <i className="fa fa-square" aria-hidden="true"></i>
-              </div>
-              <div className="shape2">
-                <i className="fa fa-circle" aria-hidden="true"></i>
-              </div>
-          </div>
+          <TopSection />
 
-          <div className="hr-green-line">
-          <hr />
-          </div>
+
 
           <div className="data-box">
 

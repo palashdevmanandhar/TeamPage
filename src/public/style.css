@@ -57,10 +57,10 @@ section.first-section {
 .table>thead>tr>th,
 .table>tbody>tr>td{
     border: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
     font-weight: bold;
     font-family: AGNextBold;
   }
@@ -70,7 +70,7 @@ section.first-section {
       max-width: 96%;
       margin-bottom: 20px;
       border-collapse: separate;
-      border-spacing: 0 1.3em;
+      border-spacing: 0 1em;
       text-align: center;
       float: left;
   }
@@ -178,6 +178,8 @@ margin: 0px;
 
 }
 /* team page css end */
+
+/* application page css start*/
 .application-page{
 display:flex;
 flex-direction: column;
@@ -224,7 +226,7 @@ width: 100vw;
     color: #A6DEFF;
 }
 
-.application-page hr{
+.top-section-complete hr{
   color: green;
   background-color: green;
   height: 3px;
@@ -263,7 +265,7 @@ width: 100vw;
 
 .applicantion-numbers{
   flex:8.6;
-
+  padding-left: 20px;
 
 }
 .job-list{
@@ -331,3 +333,101 @@ width: 100vw;
     flex:1;
         background-color: blue;
   }
+
+  /* application page css end*/
+
+  /* top applicant css start */
+
+  .top-applicants{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .flex-box-one{
+    flex:6.5;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-box-two{
+    flex:5.6;
+    display:flex;
+    flex-direction: column;
+  }
+  .flex-box-three{
+    flex:3.9;
+    background-color: green;
+    display:flex;
+  }
+
+  .box-one-top{
+    flex:40;
+  }
+
+  .box-one-bottom{
+    flex:238;
+
+    display:flex;
+  }
+
+  .box-one-bottom-left{
+    flex:6.5;
+    padding:60px 0px 0px 90px
+  }
+  .box-one-bottom-left h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: AGNextBold;
+  }
+
+  .box-one-bottom-right{
+    flex:21;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .line-ko-lagi{
+    flex:2;
+    background-color: grey;
+  }
+
+  .content-ko-lagi{
+    flex:232;
+
+  }
+
+  .for-job-title{
+    flex:609;
+    background-color: #A6DEFF;
+    padding-left: 30px;
+  }
+
+  .for-job-title h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: AGNextBold;
+    color: white;
+
+  }
+  .for-company-logo{
+    flex:609;
+    background-color: #A6DEFF;
+  }
+
+  .for-logout{
+    flex:130;
+    background-color: #A6DEFF;
+    padding-top: 120px;
+    font-size: 15px;
+    color:white;
+  }
+
+  h2.main-logo{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 462px;
+    padding-top: 30px;
+}

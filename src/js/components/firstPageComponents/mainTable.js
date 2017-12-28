@@ -7,8 +7,8 @@ export default class MainTable extends Component{
       <table className="table">{/* first left table */}
         <thead>
             <tr className="shadow">
-              <th>name</th>
-              <th>job-title</th>
+              <th>Name</th>
+              <th>Job Title</th>
               <th>Duration</th>
               <th>1-10 avg</th>
             </tr>
@@ -16,21 +16,15 @@ export default class MainTable extends Component{
         <tbody>
           <tr className="shadow">
             <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-            <td>Doe</td>
+            <td>Business Analyst</td>
+            <td>10:20</td>
+            <td>7</td>
           </tr>
           <tr className="shadow">
-            <td>John</td>
+            <td>Sally</td>
             <td>Doe</td>
-            <td>john@example.com</td>
-            <td>Doe</td>
-          </tr>
-          <tr className="shadow">
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-            <td>Doe</td>
+            <td>5:23</td>
+            <td>9</td>
           </tr>
         </tbody>
       </table>

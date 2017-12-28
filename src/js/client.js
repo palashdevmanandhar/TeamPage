@@ -7,7 +7,8 @@ import SecondPage from "./components/SecondPage";
 import TeamPage from "./components/team";
 import Applications from "./components/newApplication";
 import Table from "./components/table";
+import TopApplicant from "./components/topApplicant";
 
 
 const app = document.getElementById('app');
-ReactDOM.render(<Applications/>, app);
+ReactDOM.render(<TopApplicant/>, app);
